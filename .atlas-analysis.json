@@ -1,0 +1,169 @@
+{
+  "projectType": "cli-tool",
+  "projectName": "Doc Detective",
+  "projectDescription": "Documentation testing framework that validates docs accuracy by executing test actions against your product.",
+  "theme": "palm",
+  "primaryColor": "#2563eb",
+  "lightColor": "#60a5fa",
+  "darkColor": "#1e40af",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/tests",
+              "concepts/actions",
+              "concepts/contexts",
+              "concepts/test-specifications"
+            ]
+          },
+          {
+            "group": "CLI Reference",
+            "pages": [
+              "cli/commands",
+              "cli/arguments",
+              "cli/config-file"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/overview",
+              "configuration/contexts",
+              "configuration/file-types",
+              "configuration/environments"
+            ]
+          },
+          {
+            "group": "Examples",
+            "pages": [
+              "examples/basic-test",
+              "examples/inline-tests",
+              "examples/ui-testing",
+              "examples/api-testing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Actions",
+        "groups": [
+          {
+            "group": "Navigation",
+            "pages": [
+              "actions/goto",
+              "actions/checklink"
+            ]
+          },
+          {
+            "group": "Interaction",
+            "pages": [
+              "actions/find",
+              "actions/click",
+              "actions/type",
+              "actions/draganddrop",
+              "actions/moveto",
+              "actions/scroll"
+            ]
+          },
+          {
+            "group": "API Testing",
+            "pages": [
+              "actions/httprequest"
+            ]
+          },
+          {
+            "group": "Code Execution",
+            "pages": [
+              "actions/runcode",
+              "actions/runshell"
+            ]
+          },
+          {
+            "group": "Media Capture",
+            "pages": [
+              "actions/screenshot",
+              "actions/record",
+              "actions/stoprecord"
+            ]
+          },
+          {
+            "group": "Variables & State",
+            "pages": [
+              "actions/loadvariables",
+              "actions/loadcookie",
+              "actions/savecookie"
+            ]
+          },
+          {
+            "group": "Control Flow",
+            "pages": [
+              "actions/wait"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Programmatic Usage",
+        "groups": [
+          {
+            "group": "API",
+            "pages": [
+              "api/overview",
+              "api/runtests",
+              "api/detecttests",
+              "api/resolvetests"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Test documentation by executing actions against your product",
+    "Detect tests inline in markdown documentation files",
+    "Execute UI tests with Appium and WebDriver",
+    "Run API tests with HTTP request actions",
+    "Capture screenshots and record videos of test execution",
+    "Execute shell commands and code snippets",
+    "Support for multiple browsers and platforms"
+  ],
+  "publicApiSurface": [
+    "runTests",
+    "getRunner",
+    "detectTests",
+    "detectAndResolveTests",
+    "resolveTests",
+    "readFile",
+    "resolvePaths",
+    "checkLink",
+    "click",
+    "find",
+    "goTo",
+    "httpRequest",
+    "runCode",
+    "runShell",
+    "screenshot",
+    "record",
+    "stopRecord",
+    "type",
+    "wait",
+    "dragAndDrop",
+    "moveTo",
+    "scroll",
+    "loadVariables",
+    "loadCookie",
+    "saveCookie"
+  ]
+}
